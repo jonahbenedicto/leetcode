@@ -4,6 +4,8 @@ pub struct Solution;
 impl Solution {
     pub fn find_median_sorted_arrays(nums1: Vec<i32>, nums2: Vec<i32>) -> f64 {
         // Brute force method
+        // Time complexity: O(n + m)
+        // Space complexity: O(n + m)
         let mut i = 0;
         let mut j = 0;
         let mut v = vec![];
