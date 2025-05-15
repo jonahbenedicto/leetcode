@@ -1,6 +1,6 @@
-mod two_sum;
-use two_sum::Solution;
+mod median_of_two_sorted_arrays;
+use median_of_two_sorted_arrays::Solution;
 
 fn main() {
-    println!("{:?}", Solution::two_sum(vec![2,7,11,15], 9)); 
+    println!("{:?}", Solution::find_median_sorted_arrays(vec![1, 3], vec![2])); 
 }
