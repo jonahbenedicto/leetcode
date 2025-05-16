@@ -1,6 +1,6 @@
-mod median_of_two_sorted_arrays;
-use median_of_two_sorted_arrays::Solution;
+mod container_with_most_water;
+use container_with_most_water::Solution;
 
 fn main() {
-    println!("{:?}", Solution::find_median_sorted_arrays(vec![1, 3], vec![2])); 
+    println!("{:?}", Solution::max_area(vec![1, 8, 6, 2, 5, 4, 8, 3, 7])); 
 }
