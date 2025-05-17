@@ -3,7 +3,7 @@ pub struct Solution;
 
 impl Solution {
     pub fn max_area(height: Vec<i32>) -> i32 {
-        // Brute force solution // Not a solution on leetcode
+        // Brute force solution // Not a solution on leetcode: Time limit exceeded
         // let mut max_area = 0;
         // for (i, h1) in height.iter().enumerate() {
         //     for (j, h2) in height.iter().enumerate() {

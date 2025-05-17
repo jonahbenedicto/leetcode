@@ -32,6 +32,7 @@ impl Solution {
         } else {
             v[v.len() / 2] as f64
         }
-        // Binary search solution
+        
+        // Two Pointer Solution
     }
 }
