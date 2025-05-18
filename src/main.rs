@@ -1,6 +1,6 @@
-mod three_sum;
-use three_sum::Solution;
+mod three_sum_closet;
+use three_sum_closet::Solution;
 
 fn main() {
-    println!("{:?}", Solution::three_sum(vec![0, 2, 6, 1, 0, 4, 8, -1, 7])); 
+    println!("{:?}", Solution::three_sum_closest(vec![1,1,1,0], -100)); 
 }
